@@ -1,0 +1,10 @@
+<h1 [ngStyle]="{ color: '#fff' }">{{ getTittle() }}</h1>
+
+<ul>
+  <li *ngFor="let text of texts">
+    <div [ngStyle]="style">
+      <h1>{{ text }}</h1>
+      <h2>{{ company }}</h2>
+    </div>
+  </li>
+</ul>
